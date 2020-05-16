@@ -1,0 +1,93 @@
+body{
+			background: linear-gradient(to right,#25CCF7,#67E6DC);	
+		}
+		*{
+			margin: 0px;
+			padding: 0px;
+			border: none;
+		}
+		*::selection{
+			text-shadow: 0 0 3px #333;
+		}
+		@font-face{
+			font-family: custom1;
+			src: url('BalooTammudu2-Regular.ttf');
+		}
+		.center{
+			width: 70%;
+			margin: 100px auto;
+			padding: 10px;
+			background:linear-gradient(to right,#67E6DC,#25CCF7);
+			font-family: 'custom1',sans-serif;
+			text-align: center;	
+			border-radius: 10px;
+		}
+		.form{
+			width: 80%;
+			margin: 0px auto;
+		}
+		input[type="text"],input[type="password"]{
+			width: 80%;
+			padding: 10px;
+			margin: 10px;
+			border: none;
+			border-bottom: 1px solid #1287A5;
+			background: none;
+		}
+		input[type="text"]:hover,input[type="password"]:hover{
+			border-bottom: 1px solid #fff;
+		}
+		.submitbtn{
+			width: auto;
+			margin: 10px;
+			padding: 10px;
+			background: #2B2B52;
+			color: #fff;
+			border-radius: 2px;
+			transition: 1s;
+		}
+		.submitbtn:hover{
+			background: #1287A5;
+		}
+		#google,#facebook{
+			display: inline-block;
+			text-decoration: none;
+			width: 90%;
+			height: 25px;
+			color: #fff;
+			margin: 5px;
+			padding: 5px;
+			border-radius: 20px;
+		}
+		#google{
+			background: #FF4848;
+		}
+		#facebook{
+			background: #0A79DF;
+		}
+		#google:hover,#facebook:hover{
+			filter: saturate(150%);
+		}
+		.creator{
+			text-shadow: 0 0 3px #333;
+		}
+		@media (max-width: 768px) {
+			.center{
+				width: 90%;
+				margin: 100px auto;
+				padding: 10px;
+				background:linear-gradient(to right,#67E6DC,#25CCF7);
+				font-family: 'custom1',sans-serif;
+				text-align: center;	
+				border-radius: 10px;
+			}
+			.form{
+				width: 90%;
+				margin: 0px auto;
+			}
+			input{
+				width: 100%;
+				padding: 5px;
+				border: none;
+			}
+		}
